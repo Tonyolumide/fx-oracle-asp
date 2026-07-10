@@ -1,3 +1,7 @@
+> **Moved:** This project now lives in the monorepo  
+> **https://github.com/Tonyolumide/asp-platform** under `services/fx-oracle-asp`.  
+> Prefer opening PRs there. This repo is kept for history only.
+
 # fx-oracle-asp
 
 Read-only **NGN/USDT** composite FX oracle. A background job polls rate sources, computes a **liquidity-weighted median**, and caches the result. `GET /rate` serves **only from cache** and is gated by **x402** micropayments.
